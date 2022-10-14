@@ -1,0 +1,9 @@
+PS C:\Users\Ibis22\desktop\assignment2\assignment2> mkdir docs
+
+
+    Directory: C:\Users\Ibis22\desktop\assignment2\assignment2
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        10/14/2022   8:41 AM                docs
