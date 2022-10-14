@@ -1,0 +1,63 @@
+Name: Robert Free
+Date: Oct 14, 2022
+GitHub: rcf20
+repository link: https://github.com/rcf20/assignment2
+
+Git Lab Tutorials: Oct 13, 2022
+Setup GitHub Account: Oct 12, 2022
+
+1.
+PS C:\Users\Ibis22\desktop\assignment2\assignment2> git commit -m"created docs"
+[master 037c944] created docs
+ 3 files changed, 9 deletions(-)
+ delete mode 100644 docs/New Text Document.txt
+ delete mode 100644 docs/answers.txt
+
+PS C:\Users\Ibis22\desktop\assignment2\assignment2> git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 311 bytes | 311.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/rcf20/assignment2.git
+   161da3c..037c944  master -> master
+
+
+2.14 commits 
+git log
+
+3. oct 13, @13:13
+git log README.md
+
+4. Branches are separate lines of development that allow multiple developers to work 
+on a project simultaneously. It also provides some flexibility for the inexperienced 
+dev to play around with the project without breaking it.
+
+5. Git status show the current changes in the repository, while git log shows the 
+history of commits
+
+6. Git Log Vehical.h
+
+7. git log --grep="file"
+
+8. Inheritance is when a child can use its parent's attributes and functions. 
+Polymorphism is the ability of a parent class to have multiple children that can 
+override some of the functions of its parent class. Encapsulation is when a class 
+or data is wrapped under a single class or namespace.
+
+9. Dictator and Lieutenants workflow: For every pushes from this repository, 
+changes are merged to a lieutenant repository that, manages conflicts. The 
+lieutenants repository will merge some but not all developers changes.
+
+In the integrations manager, each developer pushes to their own public repository 
+and pulls from the blessed/central repository. The integration manager resolves 
+conflicts. 
+
+10.The dictator and Lieutenant wokflow has a lieutenant repository that resolves 
+conflict and keeps the blessed repository free from problems. This attribute can 
+benefit a large team because there will be many changes at once. Whereas a centralized 
+workflow has all the developers push to the shared repository, which can cause 
+problems when there lots of commits at once.
+
